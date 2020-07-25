@@ -1,34 +1,26 @@
-# vue-simple-boilerplate
+# Vue Boilerplate
+A simple boilerplate to VueJS projects. This boilerplate uses: 
 
-## Project setup
-```
-yarn install
-```
+  - [Jest](https://jestjs.io/) to run unit tests
+  - [Cypress](https://www.cypress.io/) to run e2e tests
+  - [eslint-config-airbnb](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb)
+  - [Yarn](https://yarnpkg.com/) as package manager
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+## Commands
 
-### Compiles and minifies for production
+To create a new view, a vuex module, a layout, a component, you can use
 ```
-yarn build
+yarn new <view, module, layout, component>
 ```
-
-### Run your unit tests
+To compile for development
+```
+yarn dev
+```
+To run unit tests
 ```
 yarn test:unit
 ```
-
-### Run your end-to-end tests
+To run e2e tests
 ```
 yarn test:e2e
 ```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
